@@ -190,7 +190,7 @@ function redCyclists(){
         redCG.add(player3);
 }
 
-function reset {
+function reset() {
   gameState = END;
   gameOver.visible = false;
   mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
@@ -214,17 +214,17 @@ function reset {
 //  distance = 0;
 // }
 
-//function reset(){
-//  gameState = PLAY;
-//  gameOver.visible = false;
-//  mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
+function reset(){
+  gameState = PLAY;
+ gameOver.visible = false;
+  mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
   
-//  pinkCG.destroyEach();
-//  yellowCG.destroyEach();
-//  redCG.destroyEach();
+  pinkCG.destroyEach();
+  yellowCG.destroyEach();
+  redCG.destroyEach();
   
-//  distance = 0;
-// }
+  distance = 0;
+ }
 
 //function reset(){
 //  gameState = END;
